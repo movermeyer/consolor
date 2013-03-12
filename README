@@ -1,0 +1,12 @@
+pyterm
+======
+
+Copyright (c) 2013, Friedrich Paetzke (f.paetzke@gmail.com)
+
+some highlighting functions for terminals.
+for usage see src/test.py
+
+## links
+
+* http://ascii-table.com/ansi-escape-sequences-vt-100.php
+* http://wiki.ubuntuusers.de/Bash/Prompt
