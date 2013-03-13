@@ -1,6 +1,12 @@
 #! /usr/bin/env python3
+'''
+@author: Friedrich Paetzke
+@copyright: Copyright (c) 2013 Friedrich Paetzke
+'''
 
 import pyterm
+import time
+
 
 def main():
     pyterm.fancyPrint('123')
@@ -41,6 +47,24 @@ def main():
     pyterm.fancyPrint('123 purple bg', bgcolor=pyterm.BgColor.Purple)
     pyterm.fancyPrint('123 cyan bg', bgcolor=pyterm.BgColor.Cyan)
     pyterm.fancyPrint('123 grey bg', bgcolor=pyterm.BgColor.Grey)
+
+    for i in range(3):
+        pyterm.updateLine('123' + str(i))
+        time.sleep(0.5)
+
+    pyterm.fancyPrint('')
+
+    for i in range(3):
+        s = pyterm.sFancyPrint(str(i) + '123' + str(i), color=pyterm.Color.Red)
+        pyterm.updateLine(s)
+        time.sleep(0.5)
+
+    pyterm.fancyPrint('')
+
+    for i in reversed(range(101)):
+        pyterm.updateLine('123' + str(i))
+        time.sleep(0.1)
+    pyterm.fancyPrint('')
 
 
 if __name__ == '__main__':
