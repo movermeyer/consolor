@@ -1,5 +1,7 @@
 '''
 @author: Friedrich Paetzke
+@copyright: Copyright (c) 2013 Friedrich Paetzke
+@license: GPL
 '''
 
 _TURN_OFF_CHARACTER_ATTS = '\033[0m'
@@ -40,6 +42,17 @@ class BgColor:
 
 def fancyPrint(s, bold=False, underline=False, blinking=False, color=None,
                bgcolor=None, end='\n'):
+    '''
+    prints `s` with the given formatting
+
+    @type s: str
+    @type bold: bool
+    @type underline: bool
+    @type blinking: bool
+    @type color: str
+    @type bgcolor: str
+    @type end: str
+    '''
     s = sFancyPrint(s, bold=bold, underline=underline, blinking=blinking,
                     color=color, bgcolor=bgcolor)
     print(s, end=end)
@@ -48,6 +61,14 @@ def fancyPrint(s, bold=False, underline=False, blinking=False, color=None,
 def sFancyPrint(s, bold=False, underline=False, blinking=False, color=None,
                 bgcolor=None):
     '''
+    returns `s` with the given formatting
+
+    @type s: str
+    @type bold: bool
+    @type underline: bool
+    @type blinking: bool
+    @type color: str
+    @type bgcolor: str
     @return: str
     '''
     fmt = ''
@@ -67,6 +88,9 @@ def sFancyPrint(s, bold=False, underline=False, blinking=False, color=None,
 
 def updateLine(s):
     '''
+    deletes the output of the current line and prints `s` on the same line
+    without a new line
+
     @type s: str
     '''
     print('\033[2K\r' + s, end='')
