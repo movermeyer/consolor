@@ -63,3 +63,10 @@ def sFancyPrint(s, bold=False, underline=False, blinking=False, color=None,
         fmt += _TURN_BLINKING_MODE_ON
 
     return fmt + s + _TURN_OFF_CHARACTER_ATTS
+
+
+def updateLine(s):
+    '''
+    @type s: str
+    '''
+    print('\033[2K\r' + s, end='')
