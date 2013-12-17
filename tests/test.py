@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 """
 consolor
 
@@ -6,12 +5,7 @@ Copyright (c) 2013, Friedrich Paetzke (f.paetzke@gmail.com)
 All rights reserved.
 
 """
-import sys
-import os
 import unittest
-
-BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
-sys.path.insert(0, BASE_DIR)
 
 import consolor
 

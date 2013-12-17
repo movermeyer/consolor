@@ -30,7 +30,7 @@ setup(name='consolor',
       author_email='f.paetzke@gmail.com',
       license='BSD',
       url='https://github.com/paetzke/consolor',
-      packages=find_packages(exclude=['test*']),
+      packages=find_packages(exclude=['tests*']),
       classifiers=[
           'Environment :: Console',
           'Intended Audience :: Developers',
