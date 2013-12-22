@@ -1,5 +1,7 @@
 * consolor
 
+[[https://travis-ci.org/paetzke/consolor][https://travis-ci.org/paetzke/consolor.png?branch=master]]
+
 Copyright (c) 2013, Friedrich Paetzke (f.paetzke@gmail.com)
 All rights reserved.
 
