@@ -1,7 +1,8 @@
-build/
-consolor.egg-info/
-dist/
-
 *.pyc
 MANIFEST
 README.rst
+
+.tox
+build/
+consolor.egg-info/
+dist/
