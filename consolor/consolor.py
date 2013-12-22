@@ -5,6 +5,9 @@ Copyright (c) 2013, Friedrich Paetzke (f.paetzke@gmail.com)
 All rights reserved.
 
 """
+from __future__ import print_function
+
+
 _TURN_OFF_CHARACTER_ATTS = '\033[0m'
 _TURN_BOLD_MODE_ON = '\033[1m'
 _TURN_UNDERLINE_MODE_ON = '\033[4m'
