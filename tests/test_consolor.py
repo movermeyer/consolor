@@ -38,7 +38,3 @@ class TestConsolor(unittest.TestCase):
             line = consolor.get_line('123%d' % i, update_line=True)
             expected = '\x1b[2K\r%s%d\x1b[0m' % ('123', i)
             self.assertEqual(line, expected)
-
-
-if __name__ == '__main__':
-    unittest.main()
