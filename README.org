@@ -47,3 +47,6 @@ pip install consolor
 
 - [[http://ascii-table.com/ansi-escape-sequences-vt-100.php]]
 - [[http://wiki.ubuntuusers.de/Bash/Prompt]]
+
+
+[[https://bitdeli.com/free][https://d2weczhvl823v0.cloudfront.net/paetzke/consolor/trend.png]]
