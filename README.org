@@ -3,7 +3,7 @@
 [[https://travis-ci.org/paetzke/consolor][https://travis-ci.org/paetzke/consolor.png?branch=master]]
 [[https://coveralls.io/r/paetzke/consolor?branch=master][https://coveralls.io/repos/paetzke/consolor/badge.png?branch=master]]
 
-Copyright (c) 2013, Friedrich Paetzke (f.paetzke@gmail.com)
+Copyright (c) 2013-2014, Friedrich Paetzke (f.paetzke@gmail.com)
 All rights reserved.
 
 Consolor provides highlighting functions for terminals.
