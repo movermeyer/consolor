@@ -37,6 +37,21 @@ print()
 
 For more colors and background colors see /consolor.Color/ and /consolor.BgColor/.
 
+You can also use it in builtin /print()/:
+
+#+BEGIN_SRC python
+import consolor
+
+print(consolor.Color.Red, 'Red')
+print('Red two')
+print(consolor.Color.Reset, end='') # You have to handle resetting your self.
+print('Not Red')
+
+print(consolor.BgColor.Red, 'Red')
+print('Red two', consolor.BgColor.Reset)
+print('None')
+#+END_SRC
+
 To install =consolor= use pip.
 
 #+BEGIN_SRC python
