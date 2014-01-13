@@ -33,6 +33,7 @@ class Color:
     LightPurple = '\033[1;35m'
     LightCyan = '\033[1;36m'
     White = '\033[1;37m'
+    Reset = _TURN_OFF_CHARACTER_ATTS
 
 
 class BgColor:
@@ -44,6 +45,7 @@ class BgColor:
     Purple = '\033[45;1m'
     Cyan = '\033[46;1m'
     Grey = '\033[47;1m'
+    Reset = _TURN_OFF_CHARACTER_ATTS
 
 
 def print_line(s, bold=False, underline=False, blinking=False, color=None, bgcolor=None, end='\n'):
