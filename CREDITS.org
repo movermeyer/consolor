@@ -1,0 +1,5 @@
+* CREDITS
+
+Thanks to:
+
+- Dirk Geschwandtner for testing
