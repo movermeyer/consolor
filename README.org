@@ -22,6 +22,8 @@ All these functions accept the following formatting parameters:
 - /color/: str, default None
 - /bgcolor/: str, default None
 
+[[http://vanneva.com/static/images/consolor.png]]
+
 Some examples:
 
 #+BEGIN_SRC python
