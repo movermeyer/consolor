@@ -53,12 +53,13 @@ def print_line(s, bold=False, underline=False, blinking=False, color=None, bgcol
     Prints a string with the given formatting.
 
     """
-    s = get_line(s, bold=bold, underline=underline, blinking=blinking, color=color, bgcolor=bgcolor)
+    s = get_line(s, bold=bold, underline=underline,
+                 blinking=blinking, color=color, bgcolor=bgcolor)
     print(s, end=end)
 
 
-def get_line(s, bold=False, underline=False, blinking=False, color=None, bgcolor=None,
-             update_line=False):
+def get_line(s, bold=False, underline=False, blinking=False, color=None,
+             bgcolor=None, update_line=False):
     """
     Returns a string with the given formatting.
 
@@ -68,7 +69,7 @@ def get_line(s, bold=False, underline=False, blinking=False, color=None, bgcolor
     if update_line:
         parts.append(_UPDATE_LINE)
 
-    for val in [bgcolor, color]:
+    for val in [color, bgcolor]:
         if val:
             parts.append(val)
 
@@ -92,6 +93,6 @@ def update_line(s, bold=False, underline=False, blinking=False, color=None, bgco
     without a new line.
 
     """
-    s = get_line(s, bold=bold, underline=underline, blinking=blinking, color=color, bgcolor=bgcolor,
-                 update_line=True)
+    s = get_line(s, bold=bold, underline=underline, blinking=blinking,
+                 color=color, bgcolor=bgcolor, update_line=True)
     print(s, end='')
