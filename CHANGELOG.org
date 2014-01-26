@@ -1,5 +1,8 @@
 * CHANGELOG
 
+** 0.1.1
+- Enable usage of foreground and background color at the same time
+
 ** 0.1.0
 - Add support for PyPy
 
