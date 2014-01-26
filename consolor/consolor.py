@@ -69,7 +69,7 @@ def get_line(s, bold=False, underline=False, blinking=False, color=None,
     if update_line:
         parts.append(_UPDATE_LINE)
 
-    for val in [bgcolor, color]:
+    for val in [color, bgcolor]:
         if val:
             parts.append(val)
 
