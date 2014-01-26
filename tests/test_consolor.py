@@ -101,3 +101,9 @@ def test_print_concat_bgcolor(mocked_print):
                                    call('Red two'),
                                    call('\x1b[46;1m', 'None'),
                                    call('\x1b[0m')])
+
+
+def test_color_and_bgcolor():
+    result = get_line('1', bgcolor=BgColor.Green, color=Color.Red)
+    expected = '\x1b[0;31m\x1b[42;1m1\x1b[0m'
+    assert result == expected
