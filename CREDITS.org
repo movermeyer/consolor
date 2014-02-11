@@ -2,4 +2,5 @@
 
 Thanks to:
 
+- Benjamin Hedrich (https://github.com/bhedrich)
 - Dirk Geschwandtner for testing
