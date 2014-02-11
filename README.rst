@@ -5,6 +5,8 @@ consolor
   :target: https://travis-ci.org/paetzke/consolor
 .. image:: https://coveralls.io/repos/paetzke/consolor/badge.png?branch=master
   :target: https://coveralls.io/r/paetzke/consolor?branch=master
+.. image:: https://pypip.in/v/consolor/badge.png
+  :target: https://pypi.python.org/pypi/consolor/
 
 Copyright (c) 2013-2014, Friedrich Paetzke (f.paetzke@gmail.com)
 All rights reserved.
