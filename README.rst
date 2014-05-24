@@ -8,9 +8,6 @@ consolor
 .. image:: https://pypip.in/v/consolor/badge.png
   :target: https://pypi.python.org/pypi/consolor/
 
-Copyright (c) 2013-2014, Friedrich Paetzke (f.paetzke@gmail.com)
-All rights reserved.
-
 Consolor provides highlighting functions for terminals.
 
 It comes with there 3 functions:
@@ -70,12 +67,42 @@ To install ``consolor`` use pip.
 
     pip install consolor
 
+CREDITS
+-------
+
+Thanks to:
+
+* Benjamin Hedrich (https://github.com/bh)
+* Dirk Geschwandtner for testing
+
+CHANGELOG
+---------
+
+0.1.2
+~~~~~
+
+* Switch from README.org to README.rst This enables you to install this package directly from a git repository.
+
+0.1.1
+~~~~~
+
+* Enable usage of foreground and background color at the same time
+
+0.1.0
+~~~~~
+
+* Add support for PyPy
+
+0.0.3
+~~~~~
+
+* Enable coloring in builtin *print()*
+
 Links
 -----
 
 * `http://ascii-table.com/ansi-escape-sequences-vt-100.php <http://ascii-table.com/ansi-escape-sequences-vt-100.php>`_
 * `http://wiki.ubuntuusers.de/Bash/Prompt <http://wiki.ubuntuusers.de/Bash/Prompt>`_
 
-.. image:: https://d2weczhvl823v0.cloudfront.net/paetzke/consolor/trend.png
-  :target: https://bitdeli.com/free
+Copyright (c) 2013-2014, Friedrich Paetzke (paetzke@fastmail.fm). All rights reserved.
 
