@@ -29,7 +29,7 @@ All these functions accept the following formatting parameters:
 * *color*: str, default None
 * *bgcolor*: str, default None
 
-.. image:: http://vanneva.com/static/images/consolor.png
+.. image:: https://paetzke.me/static/images/consolor.png
 
 Some examples:
 
@@ -67,36 +67,11 @@ To install ``consolor`` use pip.
 
     pip install consolor
 
-CREDITS
--------
+Bugs and improvements
+---------------------
 
-Thanks to:
-
-* Benjamin Hedrich (https://github.com/bh)
-* Dirk Geschwandtner for testing
-
-CHANGELOG
----------
-
-0.1.2
-~~~~~
-
-* Switch from README.org to README.rst This enables you to install this package directly from a git repository.
-
-0.1.1
-~~~~~
-
-* Enable usage of foreground and background color at the same time
-
-0.1.0
-~~~~~
-
-* Add support for PyPy
-
-0.0.3
-~~~~~
-
-* Enable coloring in builtin *print()*
+Feel free to open tickets or send pull requests with improvements.
+These `contributors <https://github.com/paetzke/consolor/graphs/contributors>`_ have done so.
 
 Links
 -----
@@ -104,5 +79,11 @@ Links
 * `http://ascii-table.com/ansi-escape-sequences-vt-100.php <http://ascii-table.com/ansi-escape-sequences-vt-100.php>`_
 * `http://wiki.ubuntuusers.de/Bash/Prompt <http://wiki.ubuntuusers.de/Bash/Prompt>`_
 
-Copyright (c) 2013-2014, Friedrich Paetzke (paetzke@fastmail.fm). All rights reserved.
+Copyright
+---------
+
+Copyright (c) 2013-2015 Friedrich Pätzke.
+See `LICENSE <LICENSE>`_ for further details.
+
+See you. `Friedrich <https://twitter.com/paetzke>`_.
 
