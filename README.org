@@ -2,7 +2,7 @@
 
 [[https://travis-ci.org/paetzke/consolor][https://travis-ci.org/paetzke/consolor.png?branch=master]]
 [[https://coveralls.io/r/paetzke/consolor?branch=master][https://coveralls.io/repos/paetzke/consolor/badge.png?branch=master]]
-[[https://pypi.python.org/pypi/consolor/][https://pypip.in/v/consolor/badge.png]]
+[[https://pypi.python.org/pypi/consolor/][https://img.shields.io/pypi/v/consolor.svg]]
 
 Consolor provides highlighting functions for terminals.
 
